@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles/main.css" />
+    <title>Blog</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kumar+One&family=Kumar+One+Outline&family=Lato:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/853a2b2ac6.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+
+  <body class="blogBody">
+    <!-- top section of blog -->
+    <header class="blogHeader">
+      <div class="wrapper blogheaderTitle">
+        <div class="blogTitleAndLogo">
+          <h3>Santuary<br />Helpers</h3>
+          <h1 class="logo">Blog</h1>
+        </div>
+        <i class="fas fa-bars"></i>
+        <div>
+          <nav>
+            <ul class="navigation">
+              <li><a href="./index.html">Home</a></li>
+              <li><a href="#">About</a></li>
+              <li><a href="#">Blog</a></li>
+              <li><a href="contact.html">Contact</a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </header>
+    <!-- section -->
+
+    <!-- Blog -->
+
+    <section class="blogAndSideBar">
+      <div class="blogPost">
+        <!-- blog image -->
+        <div>
+          <img
+            src="./assets/blog-post-image.jpg"
+            alt="white sofa bed with light blue wooden frame covered in pillows and water color painting above"
+          />
+        </div>
+        <!-- Blog Content -->
+        <div class="wrapper blogPostText">
+          <h2>Finding the right pieces for new space</h2>
+          <p class="blogDate">
+            Monday, October 5th, 2019 by <span>Saron</span>
+          </p>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti
+            magnam saepe vitae atque ullam quam quia nisi illum culpa odit?Lorem
+            ipsum dolor sit amet consectetur, adipisicing elit. Architecto,
+            esse? Necessitatibus autem dolores molestias omnis iste officia quas
+            sint aspernatur.
+          </p>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti
+            magnam saepe vitae atque ullam quam quia nisi illum culpa odit?Lorem
+            ipsum dolor sit amet. Lorem ipsum dolor sit amet consectetur
+            adipisicing elit. Tempora sint, sequi nihil omnis optio vitae ipsa
+            voluptatum nulla mollitia molestias?
+          </p>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti
+            magnam saepe vitae atque ullam quam quia nisi illum culpa odit?Lorem
+            ipsum dolor sit amet, consectetur adipisicing elit. Mollitia, nisi.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum
+            quibusdam iure facilis dolores quidem enim at consequuntur vitae
+            ipsam maiores? Lorem ipsum dolor sit amet consectetur adipisicing
+            elit. Porro, at!
+          </p>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti
+            magnam saepe vitae atque ullam quam quia nisi illum culpa odit?
+          </p>
+        </div>
+      </div>
+
+      <div class="sideBar">
+        <div class="sideBarImage">
+          <img
+            src="./assets/sidebar-image.jpg"
+            alt="rose gold metal pendant light"
+          />
+        </div>
+        <div>
+        <div class="sideBarText">
+          <div>
+            <h3>Our Mission</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ex,
+              soluta.
+            </p>
+          </div>
+          <div>
+            <h3>Recent Posts</h3>
+            <ul class="recentPostList">
+              <li>Lorem ipsum dolor sit.</li>
+              <li>Lorem ipsum dolor sit.</li>
+              <li>Lorem ipsum dolor sit.</li>
+              <li>Lorem ipsum dolor sit.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    </section>
+
+    <!-- Comment Section -->
+    <section class="wrapper">
+      <div class="commentSection">
+        <h3>Comments:</h3>
+        <div class="commentContainer">
+          <div class="commentImage">
+            <img
+              src="./assets/comment-image.jpg"
+              alt="asian male model with black turtlneck"
+            />
+          </div>
+          <div class="commentText">
+            <h4>Tuesday October 9th, 2019 by Davin</h4>
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsum
+              omnis accusantium quasi numquam magnam molestiae, possimus et ut,
+              modi libero, est dignissimos alias ad obcaecati voluptates odio
+              voluptatibus nemo unde?
+            </p>
+          </div>
+        </div>
+
+        <div class="commentContainer">
+          <div class="commentImage">
+            <img
+              src="./assets/comment-image2.jpg"
+              alt="two zebras, one looking towards camera, one looking away"
+            />
+          </div>
+          <div class="commentText">
+            <h4>Wednesday October 10th, 2019 by Lisa</h4>
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsum
+              omnis accusantium quasi numquam magnam molestiae, possimus et ut,
+              modi libero, est dignissimos alias ad obcaecati voluptates odio
+              voluptatibus nemo unde?
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Blog Form -->
+    <section class="blogForm wrapper">
+      <form action="">
+        <fieldset class="blogFieldSet">
+          <!-- name -->
+          <label for="name" class="visuallyHidden">Name</label>
+          <input type="text" class="name" placeholder="Name" />
+
+          <!-- email -->
+          <label for="email" class="visuallyHidden">Email</label>
+          <input type="email" placeholder="Email Address" id="email" />
+
+          <!-- text area -->
+          <label for="text" class="visuallyHidden">Comment</label>
+          <textarea
+            name="textArea"
+            class="blogTextArea"
+            placeholder="Comment"
+            rows="6"
+            cols="50"
+          ></textarea>
+
+          <!-- submit button -->
+          <button type="submit" class="blogButton">Post Comment</button>
+        </fieldset>
+      </form>
+    </section>
+    <footer>Copyright &copy 2021 Juno College</footer>
+  </body>
+</html>
