@@ -960,6 +960,12 @@ fieldset {
     font-size: 2.5rem;
     background-color: transparent;
   }
+  .navigation {
+    display: none;
+  }
+  .clickOn {
+    display: block;
+  }
   .headerSofa img,
   .materialsPic img {
     display: none;
@@ -1086,9 +1092,6 @@ fieldset {
   }
   .blogButton {
     width: 100%;
-  }
-  nav {
-    display: none;
   }
   .contactHeader i {
     visibility: visible;

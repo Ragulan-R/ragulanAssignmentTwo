@@ -715,6 +715,15 @@ fieldset {
     background-color: transparent;
   }
 
+  .navigation {
+    display: none;
+  }
+
+  // the nav bar to display block
+  .clickOn {
+    display: block;
+  }
+
   .headerSofa img,
   .materialsPic img {
     display: none;
@@ -861,10 +870,6 @@ fieldset {
   }
   //-BLOG- MEDIA QUERIES END
   //-CONTACT- MEDIA QUERIES START
-
-  nav {
-    display: none;
-  }
 
   .contactHeader i {
     visibility: visible;
