@@ -94,26 +94,26 @@
           />
         </div>
         <div>
-        <div class="sideBarText">
-          <div>
-            <h3>Our Mission</h3>
-            <p>
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ex,
-              soluta.
-            </p>
-          </div>
-          <div>
-            <h3>Recent Posts</h3>
-            <ul class="recentPostList">
-              <li>Lorem ipsum dolor sit.</li>
-              <li>Lorem ipsum dolor sit.</li>
-              <li>Lorem ipsum dolor sit.</li>
-              <li>Lorem ipsum dolor sit.</li>
-            </ul>
+          <div class="sideBarText">
+            <div>
+              <h3>Our Mission</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ex,
+                soluta.
+              </p>
+            </div>
+            <div>
+              <h3>Recent Posts</h3>
+              <ul class="recentPostList">
+                <li>Lorem ipsum dolor sit.</li>
+                <li>Lorem ipsum dolor sit.</li>
+                <li>Lorem ipsum dolor sit.</li>
+                <li>Lorem ipsum dolor sit.</li>
+              </ul>
+            </div>
           </div>
         </div>
       </div>
-    </div>
     </section>
 
     <!-- Comment Section -->
@@ -160,18 +160,18 @@
 
     <!-- Blog Form -->
     <section class="blogForm wrapper">
-      <form action="">
+      <form name="blogForm" action="">
         <fieldset class="blogFieldSet">
           <!-- name -->
-          <label for="name" class="visuallyHidden">Name</label>
+          <label for="name" class="visuallyHidden blogName">Name</label>
           <input type="text" class="name" placeholder="Name" />
 
           <!-- email -->
-          <label for="email" class="visuallyHidden">Email</label>
+          <label for="email" class="visuallyHidden blogEmail">Email</label>
           <input type="email" placeholder="Email Address" id="email" />
 
           <!-- text area -->
-          <label for="text" class="visuallyHidden">Comment</label>
+          <label for="text" class="visuallyHidden blogText">Comment</label>
           <textarea
             name="textArea"
             class="blogTextArea"
@@ -186,5 +186,6 @@
       </form>
     </section>
     <footer>Copyright &copy 2021 Juno College</footer>
+    <script src="./script.js"></script>
   </body>
 </html>
